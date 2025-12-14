@@ -1,0 +1,11 @@
+Memo
+The Memo Wall database stores messages left by users after completing the bootcamp. Each entry represents a single memory and includes basic personal details (such as name and course) along with a comment.The database allows the application to persist user-submitted messages so they can be retrieved and displayed on the Memo Wall page.
+
+What requirements did you achieve?
+I achieve all the requirements
+Requirements
+🎯 My HTML form is working and submitting data into the database as expected.
+🎯 My project is functional on multiple screen sizes using either Responsive Design or media queries.
+🎯 Create a working GET API route in your server.
+🎯 Create a working POST API route in your client.
+🎯 I create a sqlQueries.sql file in the server with realistic-looking ‘dummy’ data through the Supabase query editor.

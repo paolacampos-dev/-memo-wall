@@ -1,0 +1,68 @@
+body {
+    background: rgb(231, 226, 86);
+    font-size: 1.2rem; 
+}
+
+h1{
+   font-size: 2rem;
+    margin: 0 0 1rem;
+    padding: 1rem 4rem;
+    color:rgb(8, 78, 21);
+}
+
+label{
+    font-size: bold;
+}
+
+.personal-details {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin: 0.25rem 0.5rem;
+  padding: 0.25rem ;
+}
+
+.personal-details input     {
+    width: 100%;
+    min-height: 10px;
+}
+
+input {
+    background: rgb(255, 253, 220);
+}
+
+.comment    {
+    display: block;
+    margin-top: 1rem;
+    padding-top: 1rem;
+}
+
+#comment {
+  width: 100%;
+  min-height: 250px;
+  box-sizing: border-box;
+  background: rgb(150, 220, 170);
+ }
+
+ button     {
+  background-color: rgb(255, 253, 220);
+  color:rgb(87, 5, 5);
+  border: 1rem solid rgb(8, 78, 21);
+  border-radius: 6px;
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  margin: 16px 4rem;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+ }
+
+button:hover {
+  background-color: rgb(100, 185, 135);
+}
+
+#memowall-DB    {
+    margin: 5rem 3rem;
+}

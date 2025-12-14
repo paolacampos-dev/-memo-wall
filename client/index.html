@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <script type="module" src="./src/app.js" defer></script>
+      <link rel="stylesheet" href="./src/styles.css">
+       <title>Memo-Wall</title>
+  </head>
+
+  <body>
+   <h1>Memo Wall</h1>
+
+   <form id="memowall-form">
+    <fieldset id="personal-details">
+      <legend >Personal details:</legend>
+
+        <div class="personal-details">
+          <label for="name">Name:</label>
+          <input type="text" name="name"/>
+        </div>
+
+        <div class="personal-details">  
+          <label for="course">Course:</label>
+          <input type="text" name="course" required/>
+        </div>
+
+        <div class="personal-details">
+          <label for="age">Age:</label>
+          <input type="number" name="age"/>
+        </div>
+
+        <div class="personal-details"> 
+          <label for="location">Location:</label>
+          <input type="text" name="location"/>
+        </div> 
+    </fieldset>
+
+   
+        <label class="comment" for="comment">Comment:</label>
+        <textarea id="comment" name="comment" rows="15"></textarea>
+      
+    <button type="submit">Submit</button>
+  </form>
+
+  <section id="memowall-DB"></section>
+  
+  </body>
+</html>
