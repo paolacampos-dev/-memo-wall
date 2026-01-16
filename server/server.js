@@ -1,7 +1,7 @@
 //server setup:
 import express from "express";
 import cors from "cors";
-import {dbPool} from "./dbConnection.js";
+import dbPool from "./dbConnection.js";
 
 const app = express();
 
