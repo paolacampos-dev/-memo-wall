@@ -9,7 +9,7 @@ function handleForm(event)  {
     const formDataTemplate = new FormData(memowallForm);
     const formValues = Object.fromEntries(formDataTemplate);
     // console.log(formValues);
-    fetch("http://localhost:8080/new-comment", {
+    fetch("https://memo-wall-client.onrender.com", {
         method: "POST",
         headers:    {
             "Content-type": "application/json",
