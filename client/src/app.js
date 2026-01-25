@@ -22,7 +22,7 @@ function handleForm(event)  {
 //TODO: render users' data on the interface:
 //fetch the GET route from the server
 async function getMemoWall ()   {
-    const response = await fetch("http://localhost:8080/memowall");
+    const response = await fetch("https://memo-wall-server.onrender.com/memowall");
     const data = await response.json();
     console.log(data);
     // render the data using DOM elements (one per piece of data)

@@ -1,7 +1,7 @@
 //todo: setup a pool to connect server with DB
 
 import pg from "pg";
-import dotenv from "dotenv"
+import dotenv from "dotenv";
 
 dotenv.config();
 
