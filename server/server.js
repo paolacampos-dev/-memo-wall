@@ -13,8 +13,8 @@ const port = 8080;
 app.listen(8080);
 /* Checked app is working:
 app.listen(port, ()=>  {
-     console.info(`server is runinig is port ${port}`)
- })*/
+    console.info(`server is runinig is port ${port}`)
+    })*/
 
 //create a root route:
 app.get("/", function (_, res)   {
@@ -23,9 +23,9 @@ app.get("/", function (_, res)   {
 
 //todo: a route to READ data from the DB
 app.get("/memowall", async function (req, res)   {
-   const queryDB = await dbPool.query(`SELECT name, course, age, location, comment FROM memowall`);
-   console.log(queryDB);
-   res.json(queryDB.rows);
+    const queryDB = await dbPool.query(`SELECT name, course, age, location, comment FROM memowall`);
+    console.log(queryDB);
+    res.json(queryDB.rows);
 });
 
 
